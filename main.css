@@ -105,3 +105,7 @@ background-color: #41404b;
 .n:hover{
     background-color: rgb(68, 68, 73);
 }
+a{
+    text-decoration: none;
+    color: white;
+}
