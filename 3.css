@@ -1,9 +1,8 @@
-@media(min-width: 500px) {
 body{
     background-color: #96a3b6;
     box-sizing: border-box;
     margin: 0;
-}}
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -46,12 +45,8 @@ header{
 }
 .contacts:hover{
 background-color: #41404b;
-}
-.main {
-    text-align: left;
-    color: rgb(0, 0, 0);
-}
 
+}
 .footer{
     background-color: #7f8392;
     display: flex;
@@ -74,34 +69,3 @@ background-color: #41404b;
     text-decoration: none;
     color: black;
 } 
-.s{
-    position: absolute;
-    top: 300px;
-    left: 570px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-}
-.p{
-    padding: 3px 10px;
-    background-color: rgb(132, 136, 146);
-    border: none;
-    color: white;
-    border-radius: 7px;
-    cursor: pointer;
-    transition: background-color 0.3s ease 0s;
-}
-.p:hover{
-    background-color: rgb(68, 68, 73);
-}
-.n{
-    padding: 3px 10px;
-    background-color: rgb(132, 136, 146);
-    border: none;
-    color: white;
-    border-radius: 7px;
-    cursor: pointer;
-    transition: background-color 0.3s ease 0s;
-}
-.n:hover{
-    background-color: rgb(68, 68, 73);
-}
