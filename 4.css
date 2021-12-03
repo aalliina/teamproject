@@ -1,0 +1,84 @@
+body{
+    background-color: #96a3b6;
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #7f8392;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    cursor: pointer;
+}
+.nav-links a, .contacts{
+ text-decoration: none;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: rgb(255, 255, 255);
+ font-weight: 500;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+.nav-links li{
+    padding: 0px 20px;
+}
+.nav-links li a{
+    transition: color 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    color: #3d3e46;
+}
+.contacts {
+    padding: 9px 25px;
+    background-color: #6c6c75;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: bacground-color 0.3s ease 0s;
+}
+.contacts:hover{
+background-color: #41404b;
+
+}
+.footer{
+    background-color: #7f8392;
+    display: flex;
+    flex-direction: row;
+}
+.footer div{
+    padding: 50px;
+}
+.footer.a{
+    flex-basis: 20%;
+}
+.footer{
+    justify-content: center;
+}
+.ftr a{
+    text-decoration: none;
+    color: black;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+} 
+ul.b{
+    font-size: 30px;
+}
+h3.b{
+    font-size: 30px;
+}
+p.b{
+    font-size: 30px;
+}
+.e{
+    font-size: 40px;
+    text-align: center;
+}
